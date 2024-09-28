@@ -1,0 +1,64 @@
+body {
+  background-color: hsl(0, 5%, 84%);
+}
+/* h1 {
+  color: rgb(2, 145, 121);
+} */
+form {
+  background-color: white;
+  max-width: 350px;
+  height: 410px;
+  text-align: center;
+  margin: 100px 480px;
+  box-shadow: 5px 5px hsl(10, 11%, 89%);
+}
+#textbox {
+  height: 25px;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+label {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  margin-top: 20px;
+  background-color: black;
+  color: yellow;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+}
+button:hover {
+  background-color: rgb(48, 43, 43);
+}
+#myp {
+  font-weight: bold;
+  font-family: cursive;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 10px 10px;
+  /* background-color: green; */
+  /* color: yellow; */
+}
+#cel {
+  color: blue;
+}
+#far {
+  color: red;
+}
+#kel {
+  color: green;
+}
+#kel1 {
+  color: rgb(106, 72, 199);
+}
+#kel2 {
+  color: rgb(221, 195, 65);
+}
+#kel3 {
+  color: rgb(199, 72, 148);
+}

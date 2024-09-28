@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="image/calc_image_temperature_unit_converter.jpg"
+    />
+  </head>
+  <body>
+    <form action="#">
+      <h1>Temprature Converter</h1>
+      <input type="number" id="textbox" value="0" /><br />
+
+      <input type="radio" id="tocelsius" name="degree" />
+      <label for="tocelsius" id="cel">Celsius → Fahrenheit</label><br /><br />
+
+      <input type="radio" id="toFahrenheit" name="degree" />
+      <label for="toFahrenheit" id="far">Fahrenheit → Celsius</label
+      ><br /><br />
+
+      <input type="radio" id="tokelvin" name="degree" />
+      <label for="tokelvin" id="kel">Celsius → Kelvin</label><br /><br />
+
+      <input type="radio" id="toKelvin1" name="degree" />
+      <label for="toKelvin1" id="kel1">Kelvin → Celsius</label><br /><br />
+
+      <input type="radio" id="toKelvin2" name="degree" />
+      <label for="toKelvin2" id="kel2">Fahrenheit → Kelvin</label><br /><br />
+
+      <input type="radio" id="toKelvin3" name="degree" />
+      <label for="toKelvin3" id="kel3">Kelvin → Fahrenheit</label><br />
+
+      <button type="button" id="mybtn" onclick="convert()">Convert</button>
+      <p id="myp"></p>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
